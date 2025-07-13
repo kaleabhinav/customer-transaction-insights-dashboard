@@ -1,36 +1,32 @@
-# customer-transaction-insights-dashboard
+# Customer Transaction Insights Dashboard
 
-## Purpose of this project
-This project is to show KPI's for customer transactions done using credit cards.
-
+## Project Purpose
+This is a Python script project to extract and summarize key customer insights from a credit card transaction dataset. It's designed to showcase core data wrangling and KPI calculation using `pandas`, with results printed to the terminal.
 
 ## Dataset
-The dataset used in this project is from [kaggle](https://www.kaggle.com/datasets/arjunbhasin2013/ccdata)
-
+- Source: [Kaggle - Credit Card Dataset](https://www.kaggle.com/datasets/arjunbhasin2013/ccdata)
+- Description: A dataset containing anonymized transaction features for credit card customers.
 
 ## Tools Used
-`python`
-`pandas`
-`git and github`
+- Python
+- pandas
+- Git & GitHub
 
+## KPIs Calculated
+1. **Top Spender** – Customer with the highest total spend  
+2. **Low-Risk Customers** – Based on criteria defined in the script  
+3. **High-Risk Customers** – Customers identified as risky  
+4. **Loyal Customers** – Customers eligible for loyalty programs
 
-## Defined KPI's
+## Results Summary
+- **Top Spender**: `C10574`, with a total spend of ₹49,039.57  
+- **Low-Risk Customers**: 488  
+- **High-Risk Customers**: 3,812  
+- **Loyal Customers**: 555  
 
--  These KPI will be to understand the following:
+To view full lists of customers in each group, run the script.
 
-1. Which customer does the most spend?
-2. Who are less risk customers? 
-3. Identify loyal customers for loyalty program 
-4. Who are the risky customers?
-
-## Results
-
-We were able to identify the answers for above mentioned questions. Here is statistical summaary of the same: 
-
-- The customer who spends the most : C10574,the amount of spend : 49039.57
-- Number of less risky customers : 488
-- Number of risky customers : 3812
-- Number of Loyal Customers : 555
-
-To get the list of the customers, we will have to run the script. I have included a requirements.txt file to replicate the results.
-
+## How to Run
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/kaleabhinav/customer-transaction-insights-dashboard.git
